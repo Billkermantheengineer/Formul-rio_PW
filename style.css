@@ -24,7 +24,7 @@ body {
 
 header {
     display: flex;
-    background-color: #668c58;
+    background-color: #7fb46b;
     justify-content: center;
     color:#172033;
     border-radius: 10px;
@@ -32,7 +32,7 @@ header {
 }
 
 nav{
-    background-color: #ff4949;
+    background-color: #ac2e2e;
     color:#9c5098;
     font-size: 20px;
     min-height: 60px;
@@ -90,7 +90,7 @@ li {
 
 input[type="radio"] {
     margin-right: 8px;
-    accent-color: #990000;
+    accent-color: #88befc;
 }
 
 .actions {
@@ -107,7 +107,7 @@ button {
     border: 0;
     border-radius: 9px;
 
-    background: #35d023;
+    background: #8cdd84;
     color: white;
 
     font-size: 15px;
