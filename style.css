@@ -5,14 +5,14 @@
 body {
     margin: 0 auto;
     padding: 32px 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #ceb891;
+    font-family: "Times", "Times New Roman", "Georgia", serif;
+    background: #da8f5e;
     color: #000000;
 }
 
 .principal{
     padding: 30px 16px;
-    background-color: rgb(236, 253, 158);
+    background-color: #d47070;
     border-radius: 10px;
     margin: 7px;
 }
@@ -24,16 +24,17 @@ body {
 
 header {
     display: flex;
-    background-color: #ec6565;
+    background-color: #9e4d4d;
     justify-content: center;
     color:#172033;
     border-radius: 10px;
     padding: 20px;
+    font-family: cursive;
 }
 
 nav{
-    background-color: #ec6565;
-    color:#9c5098;
+    background-color: #FFC87C;
+    color:#555edf;
     font-size: 20px;
     min-height: 60px;
     width: 100%;
@@ -108,7 +109,7 @@ button {
     border-radius: 9px;
 
     background: #88ff7d;
-    color: white;
+    color: black;
 
     font-size: 15px;
     font-weight: 700;
@@ -117,8 +118,8 @@ button {
 }
 
 button.secondary {
-    background: #9bc7ff;
-    color: #172033;
+    background: #e40e0e;
+    color: black;
 }
 
 button.secondary:hover {
@@ -143,9 +144,11 @@ button.secondary:hover {
 
 footer {
     background: #bfdbfe;
+    border-radius: 25px;
     font-size: 18px;
     padding: 16px;
-    margin: 10px
+    margin: 10px;
+    max-width: fit-content;
 }
 
 @media (max-width: 520px) {
